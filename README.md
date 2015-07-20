@@ -93,6 +93,8 @@ var sub = pubsub.since("test-channel", "2015-01-03 13:26:00", function(err, data
 });
 ```
 
+where the date you specify must be in "YYYY-MM-DD HH.mm.ss" format in the UTC timezone.
+
 ## Command line
 
 To replicate the examples above on the command line you could do:
